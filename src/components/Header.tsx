@@ -1,6 +1,6 @@
 import React from 'react'
 import { Account } from './Account'
-import { ContractAddress } from './ContractAddress'
+// import { ContractAddress } from './ContractAddress'
 import { NetworkIndicator } from './NetworkIndicator'
 
 interface IProps {
