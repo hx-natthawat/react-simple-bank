@@ -16,9 +16,9 @@ export const Header: React.FC<IProps> = ({ isAddress }) => {
         className={`px-16 py-12 bg-gradient-to-r from-red-400 to-blue-500 ${isAddress ? '' : 'min-h-screen flex items-center justify-center'}`}
       >
         <div className="grid grid-cols-2 gap-6 w-full max-w-5xl mx-auto">
-          <div className={cardStyleTw}>
+          {/* <div className={cardStyleTw}>
             <ContractAddress />
-          </div>
+          </div> */}
           <div className={`${cardStyleTw} flex-col`}>
             <div className="mb-2 w-full">
               <NetworkIndicator />
