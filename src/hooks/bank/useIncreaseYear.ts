@@ -10,16 +10,15 @@ export const useIncreaseYear = () => {
   const increaseYear = useCallback(
     async (callback?: any) => {
       if (!contract || !myAccount) return
-      let options = {
-        from: myAccount,
-      }
+
       setLoading(true)
       let confirmed = false
       let errored = false
+
       // Send a transaction to blockchain
       contract.methods
         .increaseYear()
-        .send(options)
+        .send()
         .on('error', (error: any) => {
           setLoading(false)
           if (!errored) {
