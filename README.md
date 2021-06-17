@@ -1,6 +1,6 @@
-# Simple Voting (React)
+# Simple Bank (React)
 
-An example DApp for Simple Voting Workshop. Powered by React.
+An example DApp for Simple Bank Workshop. Powered by React.
 
 ## Development
 
